@@ -5,7 +5,7 @@ module Prpr
     module Adapter
       class Slack < Base
         def publish(message)
-          params = {}
+          params = { link_names: true }
 
           if message.from
             params[:username] = message.from.login
