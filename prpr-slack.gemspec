@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["mzp"]
   spec.email         = ["mzpppp@gmail.com"]
 
-  spec.summary       = "Prpr adapter: slack"
-  spec.description   = "Notify prpr message to slack"
-  spec.homepage      = "https://github.com/mzp/prpr"
+  spec.summary       = "Prpr publisher adapter for slack."
+  spec.description   = "Publish prpr message to slack."
+  spec.homepage      = "https://github.com/mzp/prpr-slack"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
