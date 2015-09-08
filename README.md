@@ -12,7 +12,7 @@ gem 'prpr-slack', github: 'mzp/prpr-slack'
 
 ## Usage
 
-Publish prpr message to slack.
+Setting [incommping webhook](https://standfirm.slack.com/services/new/incoming-webhook), and publish prpr message to slack.
 
 ![slack](https://raw.githubusercontent.com/mzp/prpr-slack/master/slack.png)
 
