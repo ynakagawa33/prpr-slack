@@ -19,7 +19,7 @@ Setting [incoming webhook](https://standfirm.slack.com/services/new/incoming-web
 ## Env
 
 ```
-SLACK_WEBHOOK_URL - incommping webhook url of slack.
+SLACK_WEBHOOK_URL - incoming webhook url of slack.
 ```
 
 ## License
