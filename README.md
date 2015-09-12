@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'prpr-slack', github: 'mzp/prpr-slack'
+gem 'prpr-slack'
 ```
 
 ## Usage
