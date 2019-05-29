@@ -22,7 +22,10 @@ module Prpr
         private
 
         def notifier
-          @notifier ||= ::Slack::Notifier.new webhook_url
+          @notifier ||= ::Slack::Notifier.new webhook_url do
+            middleware format_message: { formats: [] },
+                       format_attachments: { formats: [] }
+          end
         end
 
         def webhook_url
